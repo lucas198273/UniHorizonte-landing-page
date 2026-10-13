@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Tokens do blog de viagens (Tailwind v4 via @theme) */
+@theme {
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
